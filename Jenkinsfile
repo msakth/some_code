@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('print') {
       steps {
-        sh '''sh \'\'\'chmod +x ./testScript.sh
-./testScript.sh\'\'\''''
+        sh '''sh \'\'\'chmod +x ./testscript.sh
+                ./testscript.sh\'\'\''''
       }
     }
 
